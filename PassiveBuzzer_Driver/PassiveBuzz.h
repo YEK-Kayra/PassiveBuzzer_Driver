@@ -1,4 +1,4 @@
-*!
+/*!
  *  @file : PassiveBuzz.c
  *  @date : 12-09-2023
  *  @version : v1.0.0

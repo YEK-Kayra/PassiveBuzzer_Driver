@@ -1,8 +1,12 @@
-/*
- * PassiveBuzz.c
+/*!
+ * PassiveBuzz.h
  *
- *  Created on: Jul 8, 2023
- *      Author: TAISAT MARM-99
+ * Author: Yunus Emre KAYRA (github.com/YEK-Kayra)
+ *
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2023 TAISAT Turkish Artificial Intelligence Supported Autonomous Technologies
+ *
  */
 
 #include "PassiveBuzz.h"

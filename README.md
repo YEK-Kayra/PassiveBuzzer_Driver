@@ -16,5 +16,15 @@ _PWM_Frequence = Timer_Clock / ((Prescaler + 1) * (Period + 1))_
 
 **!Timer_Clock is the value of timer's clock bus**
 
+For example if you have 3Khz Passive Buzzer. And you timer clock bus is fed 72Mhz
+When we calculate that:
+_3000 = (72*(10^6)) / ((Prescaler + 1) * (Period + 1))_
+
+_((Prescaler + 1) * (Period + 1)) = 24 * (10^3)_
+
+PSC and ARR are a 16bit variable. So they can take max value is 65535
+I will try ARR is 100. Because ARR works like 0-100 scale. We can say duty cycle.
+_PSC + 1 = 240_
+_PSC = 239_
 
 

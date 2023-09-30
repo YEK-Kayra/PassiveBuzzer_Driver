@@ -11,9 +11,7 @@ There are some formulas to calculate PWM frequency as given below:
 PWM_Frequence = Timer_Clock / ((Prescaler + 1) * (Period + 1))
 
 !Period is the ARR(AutoReloadRegister) value
-
 !Prescaler is the PSC value
-
 !Timer_Clock is the value of timer's clock bus
 
 

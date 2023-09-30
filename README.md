@@ -24,12 +24,19 @@ _3000 = (72*(10^6)) / ((Prescaler + 1) * (Period + 1))_
 
 _((Prescaler + 1) * (Period + 1)) = 24 * (10^3)_
 
-PSC and ARR are a 16bit variable. So they can take max value is 65535
-
-I will try ARR is 100. Because ARR works like 0-100 scale. We can say duty cycle.
+**!PSC and ARR(Period) are a 16bit variable. So they can take max value is 65535**
+**!I will try (ARR+1) is 100. Because ARR works like 0-100 scale. We can say duty cycle.**
 
 _PSC + 1 = 240_
 
 _PSC = 239_
+_ARR = 99_
+
+
+![image](https://github.com/YEK-Kayra/PassiveBuzzer_Driver/assets/124110070/379a9ea8-9584-43fc-8990-51079c9653d0)
+
+![image](https://github.com/YEK-Kayra/PassiveBuzzer_Driver/assets/124110070/c7cc50e9-d836-4839-b467-2469e02f38d9)
+
+
 
 

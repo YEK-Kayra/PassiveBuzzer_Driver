@@ -32,9 +32,9 @@ _PSC + 1 = 240_
 _PSC = 239_
 _ARR = 99_
 
-
+## Pinout Configuration for TIMERS
 ![image](https://github.com/YEK-Kayra/PassiveBuzzer_Driver/assets/124110070/379a9ea8-9584-43fc-8990-51079c9653d0)
-
+## Clock Configuration for TIMERS
 ![image](https://github.com/YEK-Kayra/PassiveBuzzer_Driver/assets/124110070/c7cc50e9-d836-4839-b467-2469e02f38d9)
 
 

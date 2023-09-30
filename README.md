@@ -16,6 +16,4 @@ PWM_Frequence = Timer_Clock / ((Prescaler + 1) * (Period + 1))
 !Timer_Clock is the value of timer's clock bus
 
 
-//![image](https://github.com/YEK-Kayra/PassiveBuzzer_Driver/assets/124110070/057c47d0-e264-4560-aea6-79962aecd0f5)
-//![image](https://github.com/YEK-Kayra/PassiveBuzzer_Driver/assets/124110070/5a93b04b-fb35-4fb2-8965-55bb389685af)
 
